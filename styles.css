@@ -1,0 +1,122 @@
+/* Definir estilo para o corpo da página */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+h1 {
+    text-align: center;
+    color: #2C3E50;
+    font-size: 2.5em;
+}
+
+p {
+    text-align: center;
+    font-size: 1.2em;
+    color: #7f8c8d;
+    margin-bottom: 20px;
+}
+
+h2 {
+    text-align: center;
+    color: #2980b9;
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+label {
+    font-size: 1.1em;
+    color: #2c3e50;
+    margin-right: 10px;
+}
+
+input, select {
+    padding: 8px;
+    font-size: 1em;
+    margin: 10px 0;
+    border: 2px solid #2980b9;
+    border-radius: 4px;
+    width: 100px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #2980b9;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 5px;
+}
+
+button:hover {
+    background-color: #3498db;
+}
+
+/* Estilizar a tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 1em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table th, table td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+table th {
+    background-color: #2980b9;
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Estilo para o carrinho de compras */
+#carrinhoCompras {
+    background-color: #ecf0f1;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: 1.1em;
+}
+
+#guiaPedido {
+    font-size: 1.3em;
+    color: #27ae60;
+    margin: 15px 0;
+}
+
+h4 {
+    color: #e74c3c;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    h1, h2, p {
+        font-size: 1.5em;
+    }
+
+    table, th, td {
+        font-size: 0.9em;
+    }
+
+    button, input, select {
+        width: 100%;
+        padding: 15px;
+    }
+}
